@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "God Mace Behavior",
+    "description": "God Mace weapon and smash ability",
+    "uuid": "88b9c5a5-6038-4ef1-8e3f-4159e457a1b8",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "60b5d67f-e53c-461f-9ab8-0e117fba5b7c",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "174e63dc-484c-46bd-8e3f-7655f2a24aca",
+      "version": [1, 0, 0],
+      "entry": "scripts/god_mace.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    }
+  ]
+}

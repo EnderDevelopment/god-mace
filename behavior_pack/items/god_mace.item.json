@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "godmace:god_mace",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.mace"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.godmace.god_mace"
+      },
+      "minecraft:icon": {
+        "texture": "mace"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 30,
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "minecraft:enchantable": {
+        "slot": "mace",
+        "value": 15
+      }
+    }
+  }
+}
